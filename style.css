@@ -115,8 +115,24 @@ footer {
     margin-top: auto;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and ( max-width: 975px) {
     main {
-      margin: 1% 8%;
+      margin: 1% 5%;
     }
+    
+    .project-grid {
+        padding: 0 20px;
+    }
+
   }
+
+@media screen and (max-width: 600px) {
+    main {
+      margin: 0% 1%;
+      padding: 0px;
+    }
+
+    .project-grid {
+        padding: 0 20px;
+    }
+}
